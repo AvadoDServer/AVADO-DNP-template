@@ -1,0 +1,27 @@
+{
+  "name": "avado-dnp-template.public.dappnode.eth",
+  "version": "0.0.1",
+  "title": "Avado Template DApp",
+  "description": "AVADO-DNP-template description",
+  "avatar": "/ipfs/QmYRmFCtdXvqq3drc6kBXxeWiiMatTfKVpVrmLX883cQbR",
+  "type": "service",
+  "autoupdate": true,
+  "image": {
+    "path": "avado-dnp-template.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmcR7PrghYHacVgejeuZhp7AaC34YFphZRQF8bYmeBK2jB",
+    "size": 35338684,
+    "restart": "always"
+  },
+  "author": "AVADO",
+  "license": "(c)",
+  "dependencies": {},
+  "links": {
+    "OnboardingWizard": "http://my.avado-dnp-template.public.dappnode.eth"
+  },
+  "ui": {
+    "OnboardingWizard": {
+      "url": "http://my.avado-dnp-template.public.dappnode.eth",
+      "external": true
+    }
+  }
+}

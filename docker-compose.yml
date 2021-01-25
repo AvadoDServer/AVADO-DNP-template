@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  avado-dnp-template.public.dappnode.eth:
+    image: 'avado-dnp-template.public.dappnode.eth:0.0.1'
+    build:
+      context: ./build
+      args:
+        VERSION: somevalue
+    environment:
+      - EXTRA_OPTS=
+    volumes:
+      - 'data:/data'
+    ports:
+      - '82:82'
+volumes:
+  data: {}
